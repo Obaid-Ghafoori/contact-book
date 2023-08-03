@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Optional;
 
 public interface AddressBook {
-    Optional<String> add(Contact contact);
+    Optional<Contact> add(Contact contact);
 
     Optional<Contact> getByName(String name);
 
