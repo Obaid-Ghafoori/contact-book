@@ -4,9 +4,10 @@ import lombok.*;
 
 import java.util.Optional;
 
-@Getter
-@Setter
+
 @Builder
+@Data
+@ToString(exclude = "email")
 @AllArgsConstructor
 @NoArgsConstructor
 public class Contact {
